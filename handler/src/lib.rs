@@ -18,7 +18,8 @@ fn real_handle(event: String, context: String) -> i32 {
     println!("Event: {}", event);
     println!("Context: {}", context);
 
-    while_let_demo();
+    let demo_result = while_let_demo();
+    println!("Demo result: {:?}", demo_result);
 
     return 0;
 }
