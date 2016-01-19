@@ -40,11 +40,7 @@ fn while_let_demo() {
             println!("`i` is `{:?}`. Try again.", i);
             optional = Some(i + 1);
         }
-        // ^ Less rightward drift and doesn't require
-        // explicitly handling the failing case.
     }
-    // ^ `if let` had additional optional `else`/`else if`
-    // clauses. `while let` does not have these.
 
     println!("while_let demo finished!");
 }
