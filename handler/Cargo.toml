@@ -1,0 +1,11 @@
+[package]
+name = "handler"
+version = "0.1.0"
+authors = ["YANG Xudong <xudong.yang@hde.co.jp>"]
+
+[lib]
+name = "handler"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.4"
